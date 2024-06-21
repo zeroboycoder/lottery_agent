@@ -22,7 +22,7 @@ const LoginPage = () => {
       const agentId = res?.data?.data?.agentId;
       localStorage.setItem("token", token);
       localStorage.setItem("agentId", agentId);
-      return navigate("/");
+      return navigate("/agent/");
     } catch (error) {
       console.log(error);
     }
