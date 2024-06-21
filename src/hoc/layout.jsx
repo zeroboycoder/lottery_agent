@@ -11,10 +11,10 @@ const Layout = (props) => {
     const token = localStorage.getItem("token");
     const agnetId = localStorage.getItem("agentId");
     if (!token || !agnetId) {
-      return navigate("/login");
+      return navigate("/agent/login");
     } else {
       if (location.pathname === "/login") {
-        return navigate("/");
+        return navigate("/agent/");
       }
     }
   }, []);

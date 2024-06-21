@@ -11,12 +11,12 @@ const App = () => {
   return (
     <Layout>
       <Routes>
-        <Route path="/login" element=<LoginPage /> />
-        <Route path="/createbet" element=<CreateBetPage /> />
-        <Route path="/latestbets" element=<LatestBetPage /> />
-        <Route path="/winningnumers" element=<WinningNumberPage /> />
-        <Route path="/winnerlists" element=<WinnerListPage /> />
-        <Route path="/" exact element=<HomePage /> />
+        <Route path="/agent/login" element=<LoginPage /> />
+        <Route path="/agent/createbet" element=<CreateBetPage /> />
+        <Route path="/agent/latestbets" element=<LatestBetPage /> />
+        <Route path="/agent/winningnumers" element=<WinningNumberPage /> />
+        <Route path="/agent/winnerlists" element=<WinnerListPage /> />
+        <Route path="/agent/" exact element=<HomePage /> />
       </Routes>
     </Layout>
   );

@@ -36,32 +36,32 @@ const Nav = () => {
     {
       name: "Dashboard",
       icon: <Dashboard />,
-      route: "/",
+      route: "/agent/",
     },
     {
       name: "Create Bet",
       icon: <Add />,
-      route: "/createbet",
+      route: "/agent/createbet",
     },
     {
       name: "Latest Bets",
       icon: <Filter3 />,
-      route: "/latestbets",
+      route: "/agent/latestbets",
     },
     {
       name: "Winning Numbers",
       icon: <EmojiObjects />,
-      route: "/winningnumers",
+      route: "/agent/winningnumers",
     },
     {
       name: "Winner Lists",
       icon: <Group />,
-      route: "/winnerlists",
+      route: "/agent/winnerlists",
     },
     {
       name: "Reports",
       icon: <AssessmentOutlined />,
-      route: "/reports",
+      route: "/agent/reports",
     },
   ];
 
